@@ -1,0 +1,75 @@
+.top-container{
+    position: absolute;
+    top: 0;
+    height: 600px;
+    width: 100%;
+    padding: 26px;
+}
+
+.heading{
+    font-size: 36px;
+}
+
+.carousal{
+    height: 55vh;
+
+}
+
+.parent{
+    position: relative;
+}
+
+.layer{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 16px;
+}
+
+.lhs{
+
+}
+
+.rhs{
+    border-left: 2px solid lightgray;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    transform: scale(0.8);
+    box-shadow: 3px 5px 11px darkgrey;
+}
+
+.header{
+    height: 40px;
+    max-height: 40px;
+}
+
+mat-expansion-panel{
+    box-shadow: 1px 2px 7px darkgrey;
+    margin-top: 20px;
+}
+
+.combo{
+    background-color: darkgray;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.slidee{
+    // float: left;
+    // margin: 30px;
+}
+
+svg {
+    background-color: transparent !important;
+}
+
+.point{
+    span{
+        padding: 4px;
+        border-radius: 8px;
+    }
+}
